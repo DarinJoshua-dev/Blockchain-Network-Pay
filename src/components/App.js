@@ -82,7 +82,7 @@ class App extends Component {
                 <a>
                   <img src={RealTrado} width="150" />
                 </a>
-                <h1> Rs {this.state.balance} </h1>
+                <h1> $ {this.state.balance} </h1>
                 <form
                   onSubmit={(event) => {
                     event.preventDefault();
