@@ -126,8 +126,7 @@ class App extends Component {
                   <button
                     type="submit"
                     className="btn btn-primary btn-block"
-                    value="Reload Page"
-                    onClick="window.location.reload(true)"
+                    onClick="window.location.href=window.location.href"
                   >
                     Send
                   </button>
