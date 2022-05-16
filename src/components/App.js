@@ -70,7 +70,12 @@ class App extends Component {
     return (
       <div>
         <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-          <a className="navbar-brand col-sm-3 col-md-2 mr-0">Real Trado</a>
+          <a
+            href="https://real-trado-dapp.vercel.app/"
+            className="navbar-brand col-sm-3 col-md-2 mr-0"
+          >
+            Real Trado
+          </a>
         </nav>
         <div className="container-fluid mt-5">
           <div className="row">
@@ -79,7 +84,7 @@ class App extends Component {
                 className="content mr-auto ml-auto"
                 style={{ width: "500px" }}
               >
-                <a>
+                <a href="https://real-trado-dapp.vercel.app/">
                   <img src={RealTrado} width="150" />
                 </a>
                 <h1> $ {this.state.balance} </h1>
@@ -118,7 +123,11 @@ class App extends Component {
                       required
                     />
                   </div>
-                  <button type="submit" className="btn btn-primary btn-block">
+                  <button
+                    type="submit"
+                    className="btn btn-primary btn-block"
+                    onClick={(event) => (window.location.href = "success.html")}
+                  >
                     Send
                   </button>
                 </form>
