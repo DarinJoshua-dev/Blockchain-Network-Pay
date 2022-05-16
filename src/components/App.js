@@ -126,7 +126,8 @@ class App extends Component {
                   <button
                     type="submit"
                     className="btn btn-primary btn-block"
-                    onClick={(event) => (window.location.href = "success.html")}
+                    value="Reload Page"
+                    onClick="window.location.reload(true)"
                   >
                     Send
                   </button>
@@ -154,6 +155,13 @@ class App extends Component {
                     })}
                   </tbody>
                 </table>
+                <button
+                  type="submit"
+                  className="btn btn-primary btn-block"
+                  onClick={(event) => (window.location.href = "success.html")}
+                >
+                  Finish Now
+                </button>
               </div>
             </main>
           </div>
