@@ -123,11 +123,7 @@ class App extends Component {
                       required
                     />
                   </div>
-                  <button
-                    type="submit"
-                    className="btn btn-primary btn-block"
-                    onClick="window.location.href=window.location.href"
-                  >
+                  <button type="submit" className="btn btn-primary btn-block">
                     Send
                   </button>
                 </form>
