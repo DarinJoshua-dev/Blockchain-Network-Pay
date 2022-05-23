@@ -1,6 +1,6 @@
 # Blockchain Network Payment of the Real Trado DApp
 
-Blockchain Network based payment of the Real Trado DApp which is a distributed network system.
+Blockchain Network based payment which is part of the Real Trado DApp which in a private and secure distributed blockchain network system.
 
 <a href="https://real-trado-blockchain-pay.herokuapp.com/"><img src="https://img.shields.io/badge/View%20Deployment-view%20now-red"></a>
 
